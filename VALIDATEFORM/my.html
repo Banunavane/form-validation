@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation</title>
+</head>
+<body>
+    <form id="userForm">
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname"><br><br>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname"><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="text" id="email"><br><br>
+
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox"><br><br>
+        
+
+        <label for="radio1">Radio:</label>
+        <input type="radio" id="radio1" name="radio" value="option1">Option1
+        <input type="radio" id="radio2" name="radio" value="option2">Option2 <br><br>
+
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="7" colum="50"></textarea><br>
+
+        <label for="dropdown">Dropdown:</label>
+        <select id="dropdown" name="dropdown">
+            <option value="option1">Option1</option>
+            <option value="option2">Option2</option>
+            <option value="option3">Option3</option>
+        </select> <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="button" value="Cancel"  onclick="clearform()"><br><br>
+        
+    </form>
+
+    <script src="my.js"></script>
+</body>
+</html>
